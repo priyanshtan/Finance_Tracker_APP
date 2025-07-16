@@ -23,7 +23,7 @@ export default function App() {
   return (
     <AuthProvider>
       <Router>
-        <Navbar /> {/* 👈 Add this */}
+        <Navbar /> 
         <Routes>
           <Route path="/" element={<Navigate to="/login" />} />
           <Route path="/login" element={<Login />} />
